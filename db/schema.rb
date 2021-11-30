@@ -10,7 +10,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_12_02_162656) do
+<<<<<<< HEAD
+ActiveRecord::Schema.define(version: 2021_12_03_133549) do
+=======
+ActiveRecord::Schema.define(version: 2021_12_04_082615) do
+>>>>>>> Chapter 11 : Account Activation
 
   create_table "users", force: :cascade do |t|
     t.string "name"
@@ -21,6 +25,13 @@ ActiveRecord::Schema.define(version: 2021_12_02_162656) do
     t.string "birthday"
     t.string "gender"
     t.string "remember_digest"
+    t.boolean "admin", default: false
+<<<<<<< HEAD
+=======
+    t.string "activation_digest"
+    t.boolean "activated", default: false
+    t.datetime "activated_at"
+>>>>>>> Chapter 11 : Account Activation
   end
 
 end

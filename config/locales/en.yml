@@ -72,6 +72,23 @@ en:
           tutorial_html: This is the home page for the <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a> sample application.
           sign_up: "Sign up now!"
       users:
+        account_html:
+          title: "Sample App"
+          content1: "Hi"
+          content2: "Welcome to the Sample App! Click on the link below to activate your account"
+          activate: "Activate"
+        account_text:
+          hi: "Hi"
+          content: "Welcome to the Sample App! Click on the link below to activate your account"
+        edit:
+          title: "Edit user"
+          content: "Update your profile"
+          name: "Name"
+          email: "Email"
+          password: "Password"
+          password_confirmation: "Confirmation"
+          submit: "Submit"
+          save: "Save changes"
         new:
           title: "Sign up"
           name: "Name"
@@ -80,9 +97,33 @@ en:
           confir: "confirmation"
           create: "create my account"
           gender: "Gender"
+        index:
+          title: "All users"
+          content: "All users"
+        _user:
+          delete: "Delete"
+          content: "You sure ?"
+        _form:
+          name: "Name"
+          email: "Email"
+          password: "Password"
+          confirmation: "Password confirmation"
     controller:
       users:
         success: "welcome_to_the_sample_app !"
         danger: "Error"
+        please: "Please log in."
+        delete: "User deleted"
+        delete_fail: "Delete fail !"
+        update: "Profile updated"
+        error: "User not found"
+        check: "Please check your email to activate your account."
       sessions:
-        password_error: "Invalid email/password combination"
+        password: "Invalid email/password combination"
+        message: "Account not activated. Check your email for the activation link"
+      account:
+        notification: "Account activated!"
+        error: "Invalid activation link"
+    mailers:
+      user:
+        content: "Account activation"
