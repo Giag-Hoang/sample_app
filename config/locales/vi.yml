@@ -25,3 +25,16 @@ vi:
           content: "Chao mung den voi Sample App"
           tutorial_html: Day la trang chu cua <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a> ung dung mau.
           sign_up: "Dang nhap !"
+      users:
+        new:
+          title: "Dang ky"
+          name: "Ten dang nhap"
+          email: "Tai khoan Email"
+          password: "Mat khau"
+          confir: "Xac thuc mat khau"
+          create: "Tao tai khoan"
+          gender: "Gioi tinh"
+    controller:
+      users:
+        success: "Chao mung den voi Sample App !"
+        danger: "Loi"
