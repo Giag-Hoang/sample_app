@@ -12,6 +12,20 @@ vi:
           home: "Trang chu"
           help: "Tro giup"
           login: "Dang nhap"
+          users: "Nguoi dung"
+          account: "Tai khoan"
+          profile: "Ho so"
+          settings: "Cai dat"
+          logout: "Dang xuat"
+      sessions:
+        new:
+          title: "Dang nhap"
+          content: "Dang nhap"
+          email: "Email"
+          password: "Mat khau"
+          submit: "Tao tai khoan"
+          new_user: "Tao tai khoan ?  "
+          sign_up_now: "Bay gio"
       static:
         contact:
           title: "Lien he"
@@ -38,3 +52,5 @@ vi:
       users:
         success: "Chao mung den voi Sample App !"
         danger: "Loi"
+      sessions:
+        password_error: "Email hoac mat khau sai !"
