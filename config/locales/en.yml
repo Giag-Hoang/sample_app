@@ -30,4 +30,27 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  app:
+    helpers:
+      application:
+        base_title: "Ruby on Rails Tutorial Sample App"
+    views:
+      layouts:
+        header:
+          sample_app: "Sample App"
+          home: "Home"
+          help: "Help"
+          login: "Log in"
+      static:
+        contact:
+          title: "Contact"
+        help:
+          title: "Help"
+          content: "Help"
+          help_html: Get help on the Ruby on Rails Tutorial at the <a href="http://www.railstutorial.org/help">Rails Tutorial help page</a>.
+          book_html: To get help on this sample app, see the <a href="http://www.railstutorial.org/book"><em>Ruby on Rails Tutorial</em> book</a>.
+        home:
+          title: "Home"
+          content: "Welcome to the Sample App"
+          tutorial_html: This is the home page for the <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a> sample application.
+          sign_up: "Sign up now!"
