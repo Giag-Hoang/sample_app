@@ -7,6 +7,10 @@
       <%= f.email_field :email, class: "form-control" %>
       <%= f.label :password, t("app.views.sessions.new.password") %>
       <%= f.password_field :password, class: "form-control" %>
+      <%= f.label :remember_me, class: "checkbox inline" do %>
+        <%= f.check_box :remember_me %>
+        <span><%= t("app.views.sessions.new.remember") %></span>
+      <% end %>
       <%= f.submit t("app.views.sessions.new.submit"), class: "btn btn-primary" %>
     <% end %>
     <p><%= t("app.views.sessions.new.new_user") %><%= link_to t("app.views.sessions.new.sign_up_now"), signup_path %></p>
