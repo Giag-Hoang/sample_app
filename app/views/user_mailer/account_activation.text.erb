@@ -1,0 +1,3 @@
+<%= t("app.views.user.account_text.hi") %>
+<%= @user.name %>, <%= t("app.views.user.account_text.content") %>
+<%= edit_account_activation_url(id: @user.activation_token, email: @user.email) %>

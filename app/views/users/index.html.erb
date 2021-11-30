@@ -1,0 +1,9 @@
+<% provide :title, t("app.views.users.index.title") %>
+<h1><%= t "app.views.users.index.content" %></h1>
+<%== pagy_nav(@pagy) %>
+
+<ul class="users">
+  <%= render @users %>
+</ul>
+
+<%== pagy_nav(@pagy) %>
