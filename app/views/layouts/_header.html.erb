@@ -8,14 +8,14 @@
         <li><%= link_to t("app.views.layouts.header.home"), "#" %></li>
         <li><%= link_to t("app.views.layouts.header.help"), "#" %></li>
         <% if logged_in? %>
-          <li><%= link_to t("app.views.layouts.header.users"), "#" %></li>
+          <li><%= link_to t("app.views.layouts.header.users"), users_path %></li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <%= t("app.views.layouts.header.account") %> <b class="caret"></b>
             </a>
             <ul class="dropdown-menu">
               <li><%= link_to t("app.views.layouts.header.profile"), current_user %></li>
-              <li><%= link_to t("app.views.layouts.header.settings"), "#" %></li>
+              <li><%= link_to t("app.views.layouts.header.settings"), edit_user_path(current_user) %></li>
               <li class="divider"></li>
               <li>
                 <%= link_to t("app.views.layouts.header.logout"), logout_path, method: :delete %>

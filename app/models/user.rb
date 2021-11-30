@@ -11,7 +11,9 @@ class User < ApplicationRecord
     uniqueness: true
 
   has_secure_password
-  validates :password, length: {minimum: Settings.length.password}
+  validates :password, presence: true,
+    length: {minimum: Settings.length.password},
+    allow_nil: true
   validate :valid_birthday, if: ->{birthday.present?}
 
   class << self
