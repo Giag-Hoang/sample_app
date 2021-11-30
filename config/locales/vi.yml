@@ -1,0 +1,25 @@
+vi:
+  app:
+    helpers:
+      application:
+        base_title: "Ruby on Rails Tutorial Sample App"
+    views:
+      layouts:
+        header:
+          sample_app: "Sample App"
+          home: "Trang chu"
+          help: "Tro giup"
+          login: "Dang nhap"
+      static:
+        contact:
+          title: "Lien he"
+        help:
+          title: "Tro giup"
+          content: "Tro giup"
+          help_html: Nhan tro giup huong dan Ruby on Rails tai <a href="http://www.railstutorial.org/help">Rails Tutorial help page</a>.
+          book_html: To get help on this sample app, see the <a href="http://www.railstutorial.org/book"><em>Ruby on Rails Tutorial</em> book</a>.
+        home:
+          title: "Trang chu"
+          content: "Welcome to the Sample App"
+          tutorial_html: This is the home page for the <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a> sample application.
+          sign_up: "Dang nhap !"
