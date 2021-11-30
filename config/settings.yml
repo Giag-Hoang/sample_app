@@ -1,0 +1,7 @@
+length:
+  name: 50
+  email: 100
+  password: 6
+  birthday: 100
+regex:
+  email_regex: !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z/i'

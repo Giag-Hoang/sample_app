@@ -1,4 +1,6 @@
 vi:
+  error:
+    valid: "khong hop le"
   app:
     helpers:
       application:
@@ -16,10 +18,10 @@ vi:
         help:
           title: "Tro giup"
           content: "Tro giup"
-          help_html: Nhan tro giup huong dan Ruby on Rails tai <a href="http://www.railstutorial.org/help">Rails Tutorial help page</a>.
-          book_html: To get help on this sample app, see the <a href="http://www.railstutorial.org/book"><em>Ruby on Rails Tutorial</em> book</a>.
+          help_html: Nhan tro giup huong dan Ruby on Rails tai <a href="http://www.railstutorial.org/help">tro giup Rails Tutorial help</a>.
+          book_html: De nhan tro giup ve ung dung mau nay, hay xem <a href="http://www.railstutorial.org/book"><em>Ruby on Rails Tutorial</em> book</a>.
         home:
           title: "Trang chu"
-          content: "Welcome to the Sample App"
-          tutorial_html: This is the home page for the <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a> sample application.
+          content: "Chao mung den voi Sample App"
+          tutorial_html: Day la trang chu cua <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a> ung dung mau.
           sign_up: "Dang nhap !"
