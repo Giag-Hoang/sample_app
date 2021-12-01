@@ -30,6 +30,8 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 en:
+  error:
+    valid: "illegal"
   app:
     helpers:
       application:
