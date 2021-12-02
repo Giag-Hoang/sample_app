@@ -56,3 +56,16 @@ en:
           content: "Welcome to the Sample App"
           tutorial_html: This is the home page for the <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a> sample application.
           sign_up: "Sign up now!"
+      users:
+        new:
+          title: "Sign up"
+          name: "Name"
+          email: "Email"
+          password: "Password"
+          confir: "confirmation"
+          create: "create my account"
+          gender: "Gender"
+    controller:
+      users:
+        success: "welcome_to_the_sample_app !"
+        danger: "Error"
