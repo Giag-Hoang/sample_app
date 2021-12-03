@@ -7,7 +7,24 @@
         <li><%= link_to t(".vietnamese"), locale: :vi %></li>
         <li><%= link_to t("app.views.layouts.header.home"), "#" %></li>
         <li><%= link_to t("app.views.layouts.header.help"), "#" %></li>
-        <li><%= link_to t("app.views.layouts.header.login"), "#" %></li>
+        <% if logged_in? %>
+          <li><%= link_to t("app.views.layouts.header.users"), "#" %></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <%= t("app.views.layouts.header.account") %> <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+              <li><%= link_to t("app.views.layouts.header.profile"), current_user %></li>
+              <li><%= link_to t("app.views.layouts.header.settings"), "#" %></li>
+              <li class="divider"></li>
+              <li>
+                <%= link_to t("app.views.layouts.header.logout"), logout_path, method: :delete %>
+              </li>
+            </ul>
+          </li>
+        <% else %>
+          <li><%= link_to t("app.views.layouts.header.login"), "#" %></li>
+        <% end %>
       </ul>
     </nav>
   </div>

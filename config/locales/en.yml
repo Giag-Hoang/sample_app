@@ -43,6 +43,20 @@ en:
           home: "Home"
           help: "Help"
           login: "Log in"
+          users: "Users"
+          account: "Account"
+          profile: "Profile"
+          settings: "Settings"
+          logout: "Log out"
+      sessions:
+        new:
+          title: "Log in"
+          content: "Log in"
+          email: "Email"
+          password: "Password"
+          submit: "Log in"
+          new_user: "New user ?  "
+          sign_up_now: "Sign up now"
       static:
         contact:
           title: "Contact"
@@ -69,3 +83,5 @@ en:
       users:
         success: "welcome_to_the_sample_app !"
         danger: "Error"
+      sessions:
+        password_error: "Invalid email/password combination"
