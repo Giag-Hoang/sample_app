@@ -41,6 +41,15 @@ vi:
           tutorial_html: Day la trang chu cua <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a> ung dung mau.
           sign_up: "Dang nhap !"
       users:
+        edit:
+          title: "Chinh sua"
+          content: "Cap nhat ho so cua ban"
+          name: "Ten dang nhap"
+          email: "Email"
+          password: "Mat khau"
+          password_confirmation: "Xac nhan mat khau"
+          submit: "Luu"
+          change: "Thay doi"
         new:
           title: "Dang ky"
           name: "Ten dang nhap"
@@ -49,9 +58,25 @@ vi:
           confir: "Xac thuc mat khau"
           create: "Tao tai khoan"
           gender: "Gioi tinh"
+        index:
+          title: "Nguoi dung"
+          content: "Tat ca nguoi dung"
+        _user:
+          delete: "Xoa"
+          content: "Ban chac chu ?"
+        _form:
+          name: "Ten"
+          email: "Email"
+          password: "Mat khau"
+          confirmation: "Xac nhan mat khau"
     controller:
       users:
         success: "Chao mung den voi Sample App !"
         danger: "Loi"
+        please: "Hay dang nhap"
+        delete: "Xoa tai khoan."
+        delete_fail: "Xoa tai khoan khong duoc !"
+        update: "Cap nhat ho so"
+        error: "Tai khoan khong co"
       sessions:
         password_error: "Email hoac mat khau sai !"
