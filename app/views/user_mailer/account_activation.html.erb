@@ -1,0 +1,6 @@
+<h1><%= t("app.views.user.account_html.title") %></h1>
+<p><%= t("app.views.user.account_html.content1") %> <%= @user.name %>,</p>
+<p>
+  <%= t("app.views.user.account_html.content2") %>
+</p>
+<%= link_to t("app.views.user.account_html.activate"), edit_account_activation_url(id: @user.activation_token, email: @user.email) %>
